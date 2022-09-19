@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    color: rgba(64, 64, 64);
+}
+
+.header {
+    width: 100%;
+    padding: 22px 24px 0px 24px;
+    height: 64px;
+
+}
+
+.pannel {
+    height: 35px;
+    padding: 0px;
+
+}
+
+.logo-name {
+    font-weight: 300;
+    left: 10px;
+    top: 18px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 0px;
+}
+
+.colortxt {
+    color: rgba(126, 123, 123, 0.959);
+}
+
+.logo-img {
+    height: 32px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    margin: 0;
+    float: right;
+    padding-right: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.nav-bar li {
+    display: table-cell;
+    height: 100%;
+    padding: 0px 0px 0px 16px;
+    text-decoration: none;
+    color: rgba(64, 64, 64);
+}
+
+.start-page {
+    padding: 32px 24px;
+    background-color: rgba(211, 207, 207, 0.726);
+    display: flex;
+}
+
+.banner {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-start {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.content-txt {
+    font-size: 20px;
+    letter-spacing: .08px;
+}
+
+button {
+    padding: 8px 0px 8px 0px;
+    background-color: rgba(64, 64, 64);
+    font-size: 15px;
+    color: rgb(212, 209, 209);
+    border: none;
+    height: 47px;
+}
+
+.main-page {
+    display: flex;
+
+}
+
+.main-content {
+    padding: 32px 24px;
+    flex-direction: column;
+    width: 60%;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.quote {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.link {
+    font-size: 16px;
+}
+
+aside {
+    width: 40%;
+    padding: 14px 0px 32px;
+}
+
+.aside-element:hover {
+    background-color: rgba(94, 141, 185, 0.411);
+}
+
+.aside-element {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-pic {
+    height: auto;
+    width: 35%;
+    display: flex;
+    padding: 16px 16px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+
+}
+
+.info h4 {
+    font-size: 19px;
+    margin: 0px;
+    padding: 8px;
+
+}
+
+.info p {
+    color: rgba(126, 123, 123, 0.959);
+    font-weight: 300;
+    margin: 0px;
+    padding: 8px;
+}
+
+.info a {
+    text-decoration: none;
+    color: cornflowerblue;
+    margin: 0px;
+    padding: 8px;
+}
+
+.learning-container {
+    padding: 32px 72px;
+    background-color: rgba(211, 207, 207, 0.726);
+}
+
+.learnin-title {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.el-containers {
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.inf-container {
+    background-color: white;
+    width: 26%;
+    margin: 0px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+}
+
+.inf-container img {
+    width: 100%;
+    height: auto;
+}
+
+.descr-info {
+    padding: 16px;
+    margin: 0px;
+}
+
+.descr-info h3 {
+    font-size: 17px;
+    margin: 0px;
+}
+
+.descr-info h4 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0px;
+    padding: 8px 0px;
+}
+
+.descr-info p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.last-page {
+    padding: 32px 24px 32px 24px;
+}
+
+.last-page h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+
+.add-inf {
+    display: flex;
+}
+
+.video-element {
+    width: 60%;
+}
+
+.video-element video {
+    width: 100%;
+}
+
+.video-element h3 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.video-element p {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.additional {
+    margin-left: 24px;
+    width: 40%;
+}
+
+.infobox {
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: row
+}
+
+.infobox:hover {
+    background-color: rgba(94, 141, 185, 0.411);
+}
+
+.infobox img {
+    width: 35%;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    margin-left: 16px;
+}
+
+.text h3 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.footer {
+    border-top: 1px solid rgb(212, 209, 209);
+    width: 100%;
+    padding: 16px 24px 16px 24px;
+    height: 64px;
+}
+
+.foot-pannel {
+    margin: 0px;
+}
+
+.footer h3 {
+    font-weight: 200;
+    color: rgb(212, 209, 209);
+    font-size: 15px;
+    float: left;
+    margin: 0px;
+}
+
+.footer ul {
+    margin: 0;
+    float: right;
+    text-decoration: none;
+}
+
+.footer a {
+    display: table;
+    float: left;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.footer li {
+    display: table-cell;
+    padding: 0px 0px 0px 16px;
+    color: rgb(212, 209, 209);
+    font-weight: 300;
+}
