@@ -147,6 +147,7 @@ button {
     color: rgb(212, 209, 209);
     border: none;
     height: 47px;
+    cursor: pointer;
 }
 
 .main-page {
